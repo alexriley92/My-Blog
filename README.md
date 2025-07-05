@@ -3,11 +3,11 @@
 
 A clean and responsive Progressive Web App (PWA) built using **HTML**, **Tailwind CSS**, and **JavaScript** that lets users convert between different units of length such as meters, kilometers, miles, and feet. You can expand this to support other categories like mass, temperature, time, etc.
 
----
+
 
 ## 📁 Folder Structure
 
-```
+
 
 unit/
 ├── index.html        # Main HTML UI
@@ -16,7 +16,7 @@ unit/
 
 
 
----
+
 
 ## 🚀 Features
 
@@ -27,7 +27,7 @@ unit/
 - ✅ Minimal, clean code structure
 - ⚙️ Ready for PWA setup (add manifest + service worker)
 
----
+
 
 ## 🛠️ How to Use
 
@@ -36,7 +36,7 @@ unit/
 3. Enter a value, choose units, hit **Convert**.
 4. Boom! 🎉 See the result instantly.
 
----
+
 
 ## 📦 To-Do (Optional Upgrades)
 
@@ -45,28 +45,26 @@ unit/
 - [ ] Add history of recent conversions
 - [ ] Share/Copy result feature
 
----
+
 
 ## 🧠 Conversion Formula
 
 All values are internally converted to **meters** first, then to the target unit using this formula:
 
-```
+
 
 result = (inputValue / fromRate) \* toRate
 
-```
 
----
 
 ## 👨‍💻 Author
 
 Made with 💙 by Dus  
 *Tech enthusiast & aspiring engineer*
 
----
+
 
 ## 📜 License
 
 This project is open-source and free to use for any purpose.
-```
+
